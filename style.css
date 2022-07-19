@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hall, .footer, .quote, .info, .cta {
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.header {
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 1;
+}
+
+.header, .hall, .footer {
+    background-color: #1F2937;
+}
+
+.hall {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 135px 30px 135px;
+}
+
+h1, p {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 120px 80px 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signature {
+    margin-left: auto;
+}
+
+.push {
+    margin-left: auto;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+
+}
+
+.onebutton {
+    background-color: #3882F6;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border-width: 0px;
+}
