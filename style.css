@@ -87,6 +87,7 @@ img {
 .column {
     display: flex;
     gap: 30px;
+    align-items: baseline;
 }
 
 .card {
