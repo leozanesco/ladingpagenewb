@@ -8,16 +8,10 @@ body {
     flex-direction: column;
 }
 
-.header, .hall, .footer, .quote, .info, .cta {
-    padding-right: 120px;
-    padding-left: 120px;
-}
-
 .header {
     display: flex;
     gap: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 12px 120px;
     flex: 1;
 }
 
@@ -28,7 +22,8 @@ body {
 .hall {
     display: flex;
     justify-content: space-between;
-    padding: 20px 135px 30px 135px;
+    padding: 30px 135px 60px 135px;
+    gap: 30px;
 }
 
 h1, p {
@@ -36,19 +31,12 @@ h1, p {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 a {
     text-decoration: none;
     color: white;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    padding: 80px 120px 80px 120px;
-    display: flex;
-    flex-direction: column;
 }
 
 .signature {
@@ -71,9 +59,77 @@ img {
 
 }
 
-.onebutton {
+.onebutton, .difbutton{
     background-color: #3882F6;
-    padding: 5px 10px;
+    padding: 7px 20px;
     border-radius: 6px;
     border-width: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.difbutton {
+    border: 2px solid white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 120px 50px 120px;
+}
+
+.column {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.low {
+    margin-top: 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 170px 80px 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+em{
+    font-size: 35px;
+    font-weight: 20;
+}
+
+.cta {
+    display: flex;
+    margin: 60px 120px;
+    background-color: #3882F6;
+    padding: 30px 100px;
+    justify-content: space-between;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 120px;
+}
+
+.smaller {
+    font-size: 12px;
+    color: white;
 }
