@@ -10,7 +10,7 @@ body {
 
 .header {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     padding: 12px 120px;
     flex: 1;
 }
@@ -22,7 +22,7 @@ body {
 .hall {
     display: flex;
     justify-content: space-between;
-    padding: 30px 135px 60px 135px;
+    padding: 40px 140px 100px 140px;
     gap: 30px;
 }
 
@@ -49,6 +49,10 @@ a {
 
 img {
     border-radius: 10px;
+}
+
+.imgplace {
+    margin-right: 40px;
 }
 
 .hero {
@@ -99,7 +103,7 @@ img {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 80px 170px 80px 170px;
+    padding: 80px 190px 80px 190px;
     display: flex;
     flex-direction: column;
 }
@@ -111,7 +115,7 @@ em{
 
 .cta {
     display: flex;
-    margin: 60px 120px;
+    margin: 60px 150px;
     background-color: #3882F6;
     padding: 30px 100px;
     justify-content: space-between;
